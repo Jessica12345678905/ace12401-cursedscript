@@ -208,6 +208,13 @@ function AppearanceCheck() {
             cursedConfig.strikes += 2;
         }
 
+        //Cursed Bride
+        if(
+            cursedConfig.hasCusredBride
+            &&(itemIsAllowed ("WeddingDress1", "Cloth")
+        )
+    
+
         //Cursed ropes
         if (
             cursedConfig.hasCursedRopes
