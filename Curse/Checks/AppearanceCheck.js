@@ -212,6 +212,7 @@ function AppearanceCheck() {
         if(
             cursedConfig.hasCusredBride
             &&(itemIsAllowed ("WeddingDress1", "Cloth")
+            || itemIsAllowed()
         )
     
 
